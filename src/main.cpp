@@ -17,7 +17,7 @@
 #define BUTTONPIN 23
 
 #define DHTTYPE DHT22 // DHT 22
-DHT dht(DHTPIN, DHTTYPE);
+DHT dht(DHTPIN, DHTTYPE); 
 
 WiFiClient espClient;
 PubSubClient client(espClient);
